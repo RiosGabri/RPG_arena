@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    /* =======================
+       Configurações Gerais
+    ======================= */
+    "target": "ES2020",
+    "module": "CommonJS",
+    "rootDir": "./",
+    "outDir": "./dist",
+
+    /* =======================
+       TypeScript Strict
+    ======================= */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* =======================
+       Qualidade do Código
+    ======================= */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    /* =======================
+       Interoperabilidade
+    ======================= */
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+
+  "include": [
+    "**/*.ts"
+  ],
+
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
